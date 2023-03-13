@@ -33,5 +33,6 @@ class Service2 {
   }
 }
 
+// implementation
 new Service1().addMap(1, 'work');
 new Service2().getKeys(1);

@@ -59,12 +59,12 @@ class ABInsuranceFactory extends InsuranceFactory {
   }
 }
 
+// implementation
 const tfInsuranceFactory = new TFInsuranceFactory();
 const ins = tfInsuranceFactory.createInsurance();
 tfInsuranceFactory.saveHistory(ins);
 
 ////////////////////////////////////////// alternative
-
 const INSURANCE_TYPE = {
   tf: TFInsurance,
   ab: ABInsurance,
@@ -84,6 +84,7 @@ class InsuranceFactoryALT {
   }
 }
 
+// implementation
 const insuranceFactoryAlt = new InsuranceFactoryALT();
 const ins2 = new (insuranceFactoryAlt.createInsurance('tf'))();
 insuranceFactoryAlt.saveHistory(ins2);

@@ -53,6 +53,7 @@ class ABInsuranceFactory extends InsuranceFactory {
         return new ABInsurance();
     }
 }
+// implementation
 const tfInsuranceFactory = new TFInsuranceFactory();
 const ins = tfInsuranceFactory.createInsurance();
 tfInsuranceFactory.saveHistory(ins);
@@ -69,6 +70,7 @@ class InsuranceFactoryALT {
         this.db.save(ins.id, ins.status);
     }
 }
+// implementation
 const insuranceFactoryAlt = new InsuranceFactoryALT();
 const ins2 = new (insuranceFactoryAlt.createInsurance('tf'))();
 insuranceFactoryAlt.saveHistory(ins2);

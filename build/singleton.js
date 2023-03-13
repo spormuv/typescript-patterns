@@ -27,5 +27,6 @@ class Service2 {
         console.log(myMap.map.get(key));
     }
 }
+// implementation
 new Service1().addMap(1, 'work');
 new Service2().getKeys(1);
