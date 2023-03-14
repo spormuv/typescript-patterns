@@ -16,7 +16,7 @@ Three main groups of patterns with implementation examples are described here:
 
 ## Structural patterns:
 
-(explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient)
+(Explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient)
 
 - Bridge
 - Facade
@@ -26,7 +26,7 @@ Three main groups of patterns with implementation examples are described here:
 
 ## Behavioral patterns:
 
-(take care of effective communication and the assignment of responsibilities between objects)
+(Take care of effective communication and the assignment of responsibilities between objects)
 
 - Chain of Command
 - Mediator
